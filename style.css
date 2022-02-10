@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+}
+.body{
+    
+}
+.block{
+    margin: 0 auto;
+    height: 800px;
+    width: 620px;
+    font-size: 20px;
+}
+
+.te{
+    height: 200px;
+    width: 620px;
+    
+    border-bottom: 3px solid rgb(150, 136, 136) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.re{
+    display: flex;
+    flex-direction: column;
+    width:340px;
+    height: 160px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.ve{
+    width: 260px;
+    margin-left: 20px;
+    color: rgb(150, 136, 136);
+}
+.ge{
+    color: rgb(150, 136, 136);
+}
+@media screen and (max-width:1024px) {
+    .block{
+        width: 512px;
+        font-size: 15px;
+        height: 600px;
+    }
+    .te{
+        width: 512px;
+        height: 150px;
+    }
+    .re{
+        height: 100px;
+        width: 297px;
+    }
+    .ve{
+        width: 215px;
+    }
+}
+@media screen and (max-width:768px) {
+    .block{
+        width: 384px;
+        font-size: 15px;
+        height: 600px;
+    }
+    .te{
+        width: 384px;
+        height: 150px;
+    }
+    .re{
+        height: 100px;
+        width: 223px;
+    }
+    .ve{
+        width: 161px;
+    }
+}
+@media screen and (max-width:425px) {
+    .block{
+        width: 212.5px;
+        font-size: 10px;
+        height: 600px;
+    }
+    .te{
+        width: 212.5px;
+        height: 150px;
+    }
+    .re{
+        height: 100px;
+        width: 123px;
+    }
+    .ve{
+        width: 89px;
+    }
+}@media screen and (max-width:375px) {
+    .block{
+        width: 360px;
+        height: 600px;
+        font-size: 20px;
+    }
+    .te{
+        width: 360px;
+        height: 150px;
+    }
+    .re{
+        width: 209px;
+        height: 100px;
+    }
+    .ve{
+        width: 151px;
+    }
+}@media screen and (max-width:320px) {
+    .block{
+        width: 320px;
+        height: 600px;
+        font-size: 15px;
+    }
+    .te{
+        width: 320px;
+        height: 150px;
+    }
+    .ve{
+        width: 100px;
+    }
+    .re{
+        margin: 20px;
+    }
+}
